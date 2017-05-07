@@ -1,0 +1,46 @@
+/**index.wxss**/
+.top {
+  height:35px;
+  width: 300px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.center {
+  height: 265px;
+  width: 300px;
+}
+
+.row {
+  height: 50px;
+  width: inherit;
+  line-height: 50px;
+  text-align: center;
+}
+
+.row-left {
+  float: left;
+  height: inherit;
+  width: 100px;
+  text-align: center;
+}
+
+.row-right {
+  margin-top: 2px;
+  float: left;
+  height: 43px;
+  width: 195px;
+  color: #999;
+  opacity: 1;
+  border: 1px solid #E5E6E7;
+  border-radius: 1px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  box-shadow: rgba(0, 0, 0, 0.0745098) 1px 1px 1px 1px;
+}
+
+.bottom {
+  margin-top: 5px;
+  height: 50px;
+  line-height: 50px;
+  width: 300px;
+}

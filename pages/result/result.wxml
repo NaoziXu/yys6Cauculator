@@ -1,0 +1,28 @@
+<!--result.wxml-->
+<view class="container">
+  <view class="top">剩余狗粮和资源</view>
+  <view class="center">
+    <view class="row">
+      <text class="row-left">3星20级</text>
+      <input class="row-right" disabled="true" value="{{shikigami_remain.s3_lv20}}" />
+    </view>
+    <view class="row">
+      <text class="row-left">4星25级</text>
+      <input class="row-right" disabled="true" value="{{shikigami_remain.s4_lv25}}"/>
+    </view>
+    <view class="row">
+      <text class="row-left">5星30级</text>
+      <input class="row-right" disabled="true" value="{{shikigami_remain.s5_lv30}}"/>
+    </view>
+    <view class="row">
+      <text class="row-left">金币</text>
+      <input class="row-right" disabled="true" value="{{money_remain}}"/>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="row">
+      <text class="row-left">完成进度</text>
+      <progress percent="{{progress_percent}}" stroke-width="10" show-info />
+    </view>
+  </view>
+</view>

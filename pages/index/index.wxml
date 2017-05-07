@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="top">已有狗粮个数</view>
+  <view class="center">
+    <view class="row">
+      <text class="row-left">3星20级</text>
+      <input bindinput="getInput_s3_lv20" type="number" class="row-right" placeholder="0"/>
+    </view>
+    <view class="row">
+      <text class="row-left">3星25级</text>
+      <input bindinput="getInput_s3_lv25" type="number" class="row-right" placeholder="0"/>
+    </view>
+    <view class="row">
+      <text class="row-left">4星25级</text>
+      <input bindinput="getInput_s4_lv25" type="number" class="row-right" placeholder="0"/>
+    </view>
+    <view class="row">
+      <text class="row-left">4星30级</text>
+      <input bindinput="getInput_s4_lv30" type="number" class="row-right" placeholder="0"/>
+    </view>
+    <view class="row">
+      <text class="row-left">5星30级</text>
+      <input bindinput="getInput_s5_lv30" type="number" class="row-right" placeholder="0"/>
+    </view>
+  </view>
+  <view class="bottom">
+    <button bindtap="bindViewTap">计算</button>
+  </view>
+</view>
