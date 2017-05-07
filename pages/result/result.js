@@ -133,5 +133,5 @@ function getProgressBarPercent(progress,shikigami_remain){
     if(progress_percent > 100){
         return 100;
     }
-    return progress_percent;
+    return progress_percent.toFixed(2);
 }
