@@ -1,28 +1,29 @@
 <!--result.wxml-->
 <view class="container">
-  <view class="top">剩余狗粮和资源</view>
+  <image class="bg-image" src="../../images/bg-red-light.jpg" mode="widthFix"></image>
+  <view class="top">剩余所需材料</view>
   <view class="center">
     <view class="row">
       <text class="row-left">3星20级</text>
-      <input class="row-right" disabled="true" value="{{shikigami_remain.s3_lv20}}" />
+      <text class="row-right">{{shikigami_remain.s3_lv20}}</text>
     </view>
     <view class="row">
       <text class="row-left">4星25级</text>
-      <input class="row-right" disabled="true" value="{{shikigami_remain.s4_lv25}}"/>
+      <text class="row-right">{{shikigami_remain.s4_lv25}}</text>
     </view>
     <view class="row">
       <text class="row-left">5星30级</text>
-      <input class="row-right" disabled="true" value="{{shikigami_remain.s5_lv30}}"/>
+      <text class="row-right">{{shikigami_remain.s5_lv30}}</text>
     </view>
     <view class="row">
       <text class="row-left">金币</text>
-      <input class="row-right" disabled="true" value="{{money_remain}}"/>
+      <text class="row-right">{{money_remain}}</text>
     </view>
   </view>
   <view class="bottom">
     <view class="row">
-      <text class="row-left">完成进度</text>
-      <progress percent="{{progress_percent}}" stroke-width="10" show-info />
+      <!--<text class="row-left">完成进度</text>-->
+      <progress percent="{{progress_percent}}" stroke-width="12" show-info activeColor="#FFC125"/>
     </view>
   </view>
 </view>

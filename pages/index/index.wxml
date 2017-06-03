@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+  <image class="bg-image" src="../../images/bg-red-light.jpg" mode="widthFix"></image>
   <view class="top">已有狗粮个数</view>
   <view class="center">
     <view class="row">
@@ -24,6 +25,6 @@
     </view>
   </view>
   <view class="bottom">
-    <button bindtap="bindViewTap">计算</button>
+    <button bindtap="bindViewTap" class="button-bottom">计 算</button>
   </view>
 </view>
