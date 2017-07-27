@@ -22,8 +22,8 @@
   </view>
   <view class="bottom">
     <view class="row">
-      <!--<text class="row-left">完成进度</text>-->
       <progress percent="{{progress_percent}}" stroke-width="12" show-info activeColor="#FFC125"/>
     </view>
+    <button bindtap="bindViewTap" class="doc-btn">小程序说明</button>
   </view>
 </view>

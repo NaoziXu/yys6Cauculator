@@ -1,0 +1,48 @@
+/**index.wxss**/
+page{
+  height:100%;
+  overflow: hidden;
+  font-size: 18px;
+  font-family: "Microsoft YaHei" ;
+  color: white;
+}
+
+.container {
+  padding:50rpx 0;
+  justify-content:flex-start;
+}
+
+.bg-image {
+  top: 0;
+  margin-left: 0;
+  width: 100%;
+  float: left;
+  position: absolute;
+  z-index: -1;
+}
+
+.top {
+  height:20px;
+  width: 300px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.center {
+  margin-top: 0px;
+  height: 450px;
+  width: 300px;
+}
+
+.center .title{
+  float:left;
+  color:orange;
+  font-size:16px;
+  margin-top:10px;
+}
+
+.center .doc{
+  float:left;
+  font-size:15px;
+  margin-top:5px;
+}

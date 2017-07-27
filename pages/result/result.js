@@ -16,6 +16,11 @@ Page({
     money_remain : "300万",
     progress_percent : 0
   },
+  bindViewTap: function () {
+    wx.navigateTo({
+      url: '../doc/doc'
+    })
+  },
   onLoad: function () {
     var progress = wx.getStorageSync("progress");
     wx.clearStorageSync("progress");

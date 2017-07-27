@@ -1,0 +1,17 @@
+<!--doc.wxml-->
+<view class="container">
+  <image class="bg-image" src="../../images/bg-blue-light.jpg" mode="widthFix"></image>
+  <view class="center">
+      <view class="top">小程序说明</view>
+      <text class="title">计算场景</text>
+      <text class="doc">以5个白达摩吃普通狗粮升星为设想场景进行模拟计算。</text>
+      <text class="title">计算结果</text>
+      <text class="doc">狗粮：以当前各星级狗粮仍不足的数量为结果，各星级狗粮数量单独结算。</text>
+      <text class="doc">金币：以当前已有狗粮情况至达成5个5星狗粮过程中所需的金币数量为结果。</text>
+      <text class="doc">进度：以当前已有狗粮的经验值在升星所需全部狗粮的经验值占比为结果。</text>
+      <text class="title">意见反馈</text>
+      <text class="doc">如果阴阳师在使用过程中觉得计算器有什么需要改进的地方，可以直接关注"脑纸Workspace"或通过以下步骤,进入订阅号中发送意见消息进行反馈：</text>
+      <text class="doc">点击导航栏右上角，点击屏幕下方菜单中的"关于阴阳师六星计算器"，点击"相关公众号"，即可找到公众号入口。</text>
+  </view>
+
+</view>
